@@ -1,0 +1,18 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "My Responsive Portfolio",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Wasique Haider",
+  "license": "ISC",
+  "homepage": "https://wasiquehaider.github.io/responsive_portfolio",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.3"
+  }
+}
